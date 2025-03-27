@@ -1,0 +1,5 @@
+services:
+  cli:
+    build:
+      context: ..
+      dockerfile: docker-files/backstage-cli/Dockerfile
